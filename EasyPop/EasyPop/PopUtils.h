@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Pop.h"
-
+#import <UIKit/UIKit.h>
 typedef enum {
     zkPOPLayerScaleXY = 0,          //宽高放大比例  Point->Value
     zkPOPLayerBackgroundColor,      //背景色   UIColor
