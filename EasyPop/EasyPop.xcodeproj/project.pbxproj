@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A5C8D771CE33AE1005EAEFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5C8D761CE33AE1005EAEFB /* main.m */; };
+		4A5C8D7A1CE33AE1005EAEFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5C8D791CE33AE1005EAEFB /* AppDelegate.m */; };
+		4A5C8D7D1CE33AE1005EAEFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5C8D7C1CE33AE1005EAEFB /* ViewController.m */; };
+		4A5C8D801CE33AE1005EAEFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5C8D7E1CE33AE1005EAEFB /* Main.storyboard */; };
+		4A5C8D821CE33AE1005EAEFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A5C8D811CE33AE1005EAEFB /* Assets.xcassets */; };
+		4A5C8D851CE33AE1005EAEFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5C8D831CE33AE1005EAEFB /* LaunchScreen.storyboard */; };
+		4A5C8D901CE33AE1005EAEFB /* EasyPopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5C8D8F1CE33AE1005EAEFB /* EasyPopTests.m */; };
+		4A5C8D9B1CE33AE1005EAEFB /* EasyPopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5C8D9A1CE33AE1005EAEFB /* EasyPopUITests.m */; };
+		4A5C8DAE1CE33B4C005EAEFB /* PopUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5C8DAD1CE33B4C005EAEFB /* PopUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A5C8D8C1CE33AE1005EAEFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A5C8D6A1CE33AE1005EAEFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A5C8D711CE33AE1005EAEFB;
+			remoteInfo = EasyPop;
+		};
+		4A5C8D971CE33AE1005EAEFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A5C8D6A1CE33AE1005EAEFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A5C8D711CE33AE1005EAEFB;
+			remoteInfo = EasyPop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A5C8D721CE33AE1005EAEFB /* EasyPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5C8D761CE33AE1005EAEFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A5C8D781CE33AE1005EAEFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A5C8D791CE33AE1005EAEFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A5C8D7B1CE33AE1005EAEFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A5C8D7C1CE33AE1005EAEFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A5C8D7F1CE33AE1005EAEFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A5C8D811CE33AE1005EAEFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A5C8D841CE33AE1005EAEFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A5C8D861CE33AE1005EAEFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A5C8D8B1CE33AE1005EAEFB /* EasyPopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyPopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5C8D8F1CE33AE1005EAEFB /* EasyPopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyPopTests.m; sourceTree = "<group>"; };
+		4A5C8D911CE33AE1005EAEFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A5C8D961CE33AE1005EAEFB /* EasyPopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyPopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5C8D9A1CE33AE1005EAEFB /* EasyPopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyPopUITests.m; sourceTree = "<group>"; };
+		4A5C8D9C1CE33AE1005EAEFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A5C8DAC1CE33B4C005EAEFB /* PopUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopUtils.h; sourceTree = "<group>"; };
+		4A5C8DAD1CE33B4C005EAEFB /* PopUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A5C8D6F1CE33AE1005EAEFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A5C8D881CE33AE1005EAEFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A5C8D931CE33AE1005EAEFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A5C8D691CE33AE1005EAEFB = {
+			isa = PBXGroup;
+			children = (
+				4A5C8D741CE33AE1005EAEFB /* EasyPop */,
+				4A5C8D8E1CE33AE1005EAEFB /* EasyPopTests */,
+				4A5C8D991CE33AE1005EAEFB /* EasyPopUITests */,
+				4A5C8D731CE33AE1005EAEFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A5C8D731CE33AE1005EAEFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A5C8D721CE33AE1005EAEFB /* EasyPop.app */,
+				4A5C8D8B1CE33AE1005EAEFB /* EasyPopTests.xctest */,
+				4A5C8D961CE33AE1005EAEFB /* EasyPopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A5C8D741CE33AE1005EAEFB /* EasyPop */ = {
+			isa = PBXGroup;
+			children = (
+				4A5C8DAB1CE33B4C005EAEFB /* EasyPop */,
+				4A5C8D781CE33AE1005EAEFB /* AppDelegate.h */,
+				4A5C8D791CE33AE1005EAEFB /* AppDelegate.m */,
+				4A5C8D7B1CE33AE1005EAEFB /* ViewController.h */,
+				4A5C8D7C1CE33AE1005EAEFB /* ViewController.m */,
+				4A5C8D7E1CE33AE1005EAEFB /* Main.storyboard */,
+				4A5C8D811CE33AE1005EAEFB /* Assets.xcassets */,
+				4A5C8D831CE33AE1005EAEFB /* LaunchScreen.storyboard */,
+				4A5C8D861CE33AE1005EAEFB /* Info.plist */,
+				4A5C8D751CE33AE1005EAEFB /* Supporting Files */,
+			);
+			path = EasyPop;
+			sourceTree = "<group>";
+		};
+		4A5C8D751CE33AE1005EAEFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A5C8D761CE33AE1005EAEFB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A5C8D8E1CE33AE1005EAEFB /* EasyPopTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A5C8D8F1CE33AE1005EAEFB /* EasyPopTests.m */,
+				4A5C8D911CE33AE1005EAEFB /* Info.plist */,
+			);
+			path = EasyPopTests;
+			sourceTree = "<group>";
+		};
+		4A5C8D991CE33AE1005EAEFB /* EasyPopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A5C8D9A1CE33AE1005EAEFB /* EasyPopUITests.m */,
+				4A5C8D9C1CE33AE1005EAEFB /* Info.plist */,
+			);
+			path = EasyPopUITests;
+			sourceTree = "<group>";
+		};
+		4A5C8DAB1CE33B4C005EAEFB /* EasyPop */ = {
+			isa = PBXGroup;
+			children = (
+				4A5C8DAC1CE33B4C005EAEFB /* PopUtils.h */,
+				4A5C8DAD1CE33B4C005EAEFB /* PopUtils.m */,
+			);
+			path = EasyPop;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A5C8D711CE33AE1005EAEFB /* EasyPop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A5C8D9F1CE33AE1005EAEFB /* Build configuration list for PBXNativeTarget "EasyPop" */;
+			buildPhases = (
+				4A5C8D6E1CE33AE1005EAEFB /* Sources */,
+				4A5C8D6F1CE33AE1005EAEFB /* Frameworks */,
+				4A5C8D701CE33AE1005EAEFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyPop;
+			productName = EasyPop;
+			productReference = 4A5C8D721CE33AE1005EAEFB /* EasyPop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A5C8D8A1CE33AE1005EAEFB /* EasyPopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A5C8DA21CE33AE1005EAEFB /* Build configuration list for PBXNativeTarget "EasyPopTests" */;
+			buildPhases = (
+				4A5C8D871CE33AE1005EAEFB /* Sources */,
+				4A5C8D881CE33AE1005EAEFB /* Frameworks */,
+				4A5C8D891CE33AE1005EAEFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A5C8D8D1CE33AE1005EAEFB /* PBXTargetDependency */,
+			);
+			name = EasyPopTests;
+			productName = EasyPopTests;
+			productReference = 4A5C8D8B1CE33AE1005EAEFB /* EasyPopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A5C8D951CE33AE1005EAEFB /* EasyPopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A5C8DA51CE33AE1005EAEFB /* Build configuration list for PBXNativeTarget "EasyPopUITests" */;
+			buildPhases = (
+				4A5C8D921CE33AE1005EAEFB /* Sources */,
+				4A5C8D931CE33AE1005EAEFB /* Frameworks */,
+				4A5C8D941CE33AE1005EAEFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A5C8D981CE33AE1005EAEFB /* PBXTargetDependency */,
+			);
+			name = EasyPopUITests;
+			productName = EasyPopUITests;
+			productReference = 4A5C8D961CE33AE1005EAEFB /* EasyPopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A5C8D6A1CE33AE1005EAEFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "周杰";
+				TargetAttributes = {
+					4A5C8D711CE33AE1005EAEFB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4A5C8D8A1CE33AE1005EAEFB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4A5C8D711CE33AE1005EAEFB;
+					};
+					4A5C8D951CE33AE1005EAEFB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4A5C8D711CE33AE1005EAEFB;
+					};
+				};
+			};
+			buildConfigurationList = 4A5C8D6D1CE33AE1005EAEFB /* Build configuration list for PBXProject "EasyPop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A5C8D691CE33AE1005EAEFB;
+			productRefGroup = 4A5C8D731CE33AE1005EAEFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A5C8D711CE33AE1005EAEFB /* EasyPop */,
+				4A5C8D8A1CE33AE1005EAEFB /* EasyPopTests */,
+				4A5C8D951CE33AE1005EAEFB /* EasyPopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A5C8D701CE33AE1005EAEFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5C8D851CE33AE1005EAEFB /* LaunchScreen.storyboard in Resources */,
+				4A5C8D821CE33AE1005EAEFB /* Assets.xcassets in Resources */,
+				4A5C8D801CE33AE1005EAEFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A5C8D891CE33AE1005EAEFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A5C8D941CE33AE1005EAEFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A5C8D6E1CE33AE1005EAEFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5C8D7D1CE33AE1005EAEFB /* ViewController.m in Sources */,
+				4A5C8DAE1CE33B4C005EAEFB /* PopUtils.m in Sources */,
+				4A5C8D7A1CE33AE1005EAEFB /* AppDelegate.m in Sources */,
+				4A5C8D771CE33AE1005EAEFB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A5C8D871CE33AE1005EAEFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5C8D901CE33AE1005EAEFB /* EasyPopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A5C8D921CE33AE1005EAEFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5C8D9B1CE33AE1005EAEFB /* EasyPopUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A5C8D8D1CE33AE1005EAEFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A5C8D711CE33AE1005EAEFB /* EasyPop */;
+			targetProxy = 4A5C8D8C1CE33AE1005EAEFB /* PBXContainerItemProxy */;
+		};
+		4A5C8D981CE33AE1005EAEFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A5C8D711CE33AE1005EAEFB /* EasyPop */;
+			targetProxy = 4A5C8D971CE33AE1005EAEFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A5C8D7E1CE33AE1005EAEFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A5C8D7F1CE33AE1005EAEFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A5C8D831CE33AE1005EAEFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A5C8D841CE33AE1005EAEFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A5C8D9D1CE33AE1005EAEFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A5C8D9E1CE33AE1005EAEFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A5C8DA01CE33AE1005EAEFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasyPop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zj.EasyPop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A5C8DA11CE33AE1005EAEFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasyPop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zj.EasyPop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4A5C8DA31CE33AE1005EAEFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EasyPopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zj.EasyPopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyPop.app/EasyPop";
+			};
+			name = Debug;
+		};
+		4A5C8DA41CE33AE1005EAEFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EasyPopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zj.EasyPopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyPop.app/EasyPop";
+			};
+			name = Release;
+		};
+		4A5C8DA61CE33AE1005EAEFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EasyPopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zj.EasyPopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EasyPop;
+			};
+			name = Debug;
+		};
+		4A5C8DA71CE33AE1005EAEFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EasyPopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zj.EasyPopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EasyPop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A5C8D6D1CE33AE1005EAEFB /* Build configuration list for PBXProject "EasyPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5C8D9D1CE33AE1005EAEFB /* Debug */,
+				4A5C8D9E1CE33AE1005EAEFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A5C8D9F1CE33AE1005EAEFB /* Build configuration list for PBXNativeTarget "EasyPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5C8DA01CE33AE1005EAEFB /* Debug */,
+				4A5C8DA11CE33AE1005EAEFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A5C8DA21CE33AE1005EAEFB /* Build configuration list for PBXNativeTarget "EasyPopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5C8DA31CE33AE1005EAEFB /* Debug */,
+				4A5C8DA41CE33AE1005EAEFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A5C8DA51CE33AE1005EAEFB /* Build configuration list for PBXNativeTarget "EasyPopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5C8DA61CE33AE1005EAEFB /* Debug */,
+				4A5C8DA71CE33AE1005EAEFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A5C8D6A1CE33AE1005EAEFB /* Project object */;
+}
